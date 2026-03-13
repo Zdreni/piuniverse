@@ -1,4 +1,11 @@
-﻿import os
+﻿# This script is intended for filtering simfiles with low-level charts, for events with casual visitors to enjoy pump.
+# It scans source folder for simfiles with charts below specified level - and moves those simfiles to output folder
+
+# WARNING: it moves all simfiles into _ONE_ output folder, not preserving their original path structure.
+# So don't use it on the whole stepmania Songs folder - use it on separate pack folders instead
+
+
+import os
 import re
 import shutil
 import sys
